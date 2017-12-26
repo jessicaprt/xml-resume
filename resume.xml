@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+<resume>
+    <section>
+        <title></title>
+        <name>Jessica Antonette Prieto</name>
+        <address>Calgary, Alberta</address>
+        <emailAddress>jessicaprieto31@gmail.com</emailAddress>
+        <contactNumber>555-55-55</contactNumber>
+    </section>
+
+    <section>
+        <university>
+            <name>University of Alberta</name>
+            <location>Edmonton, Alberta</location>
+            <program>
+                <discipline>BSc., Computer Engineering</discipline>
+                <dates>2014-present</dates>
+            </program>
+        </university>
+    </section>
+
+    <section>
+        <work>
+            <name>ARC Resources Ltd.</name>
+            <location>Calgary, Alberta</location>
+            <position>Information Systems - Summer Student</position>
+            <roles>
+                <description>Learned how to use Azure to automate deployment of web apps using continuous integration and continuous deployment.</description>
+                <description>Wrote build scripts in powershell as part of the build process.</description>
+                <description></description>
+                <description>Applied MVC design pattern on web apps.</description>
+            </roles>
+        </work>
+    </section>
+</resume>
+
+
