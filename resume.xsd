@@ -1,2 +1,40 @@
 <?xml version="1.0"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:resume = "http://jessica.prieto.ca/resume"
+    targetNamespace = "http://jessica.prieto.ca/resume">
+
+    <element name="my-resume" type="ResumeType"/>
+
+    <complexType name="ResumeType">
+        <sequence>
+            <element name="name" type="string"/>
+        
+            <element name="contactInfo" type="string"
+                minOccurs="1" maxOccurs="unbounded"/>
+            
+            <element name="section" type="sectionType"/>
+        </sequence>
+    </complexType>
+
+    <complexType name = "sectionType">
+        <sequence>
+            <element name = "subsection" type="subsections"
+                minOccurs = "0" maxOccurs = "unbounded"/>
+            <element name = "bullet-point" type="string"
+                minOccurs = "0" maxOccurs = "unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name = "subsections">
+        <sequence>
+            <element name = "title" type="string"
+                minOccurs = "0" maxOccurs = "1"/>
+            <element name = "description" type="string"
+                minOccuts = "0" maxOccurs = "1"/>
+            <element name = "date" type="string"
+                minOccuts = "0" maxOccurs = "1"/>
+            <element name = "details" type="string"
+                minOccuts = "0" maxOccurs = "unbounded"/>
+        </sequence>
+    </complexType>
+</schema>

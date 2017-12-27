@@ -1,38 +1,112 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
-<resume>
+<?xml-stylesheet type = "text/xsl" href = "resume.xsl"?>
+<resume xmlns:resume = "http://jessica.prieto.ca/resume">
+    <name>Jessica Antonette Prieto</name>
+    <contactInfo>Calgary, Alberta</contactInfo>
+    <contactInfo>jessicaprieto31@gmail.com</contactInfo>
+    <contactInfo>587-938-3319</contactInfo>
+
     <section>
-        <title></title>
-        <name>Jessica Antonette Prieto</name>
-        <address>Calgary, Alberta</address>
-        <emailAddress>jessicaprieto31@gmail.com</emailAddress>
-        <contactNumber>555-55-55</contactNumber>
+        <name>Education</name>
+        <subsection>
+            <title>University of Alberta</title>
+            <description>Edmonton, Alberta</description>
+            <date>(2014-present)</date>
+            <details>BSc., Computer Engineering</details>
+        </subsection>
     </section>
 
     <section>
-        <university>
-            <name>University of Alberta</name>
-            <location>Edmonton, Alberta</location>
-            <program>
-                <discipline>BSc., Computer Engineering</discipline>
-                <dates>2014-present</dates>
-            </program>
-        </university>
+        <name>Technical Background</name>
+        <bullet-point>Developed web applications using C# and ASP.NET</bullet-point>
+        <bullet-point>Wrote build scripts for automatic deployment using Powershell</bullet-point>
+        <bullet-point>Created basic mobile applications in Android using Java and Android Studio</bullet-point>
+        <bullet-point>Worked on client-side web development with HTML, CSS, JavaScript</bullet-point>
+        <bullet-point>Experienced using web frameworks such as Bootstrap and jQuery</bullet-point>
+        <bullet-point>Researched on using Azure services particularly deploying web applications</bullet-point>
+        <bullet-point>Applied OAuth and OpenId Connect to secure access on web applications</bullet-point>
+        <bullet-point>Knowledgeable with Python, C, C#, Java, PHP, SQL</bullet-point>
+        <bullet-point>Familiar working in Windows, GNU/Linux, Mac OS environments</bullet-point>
+        <bullet-point>Built software for the Arduino platform</bullet-point>
+        <bullet-point>Created graphic designs and website mock-ups using Photoshop</bullet-point>
     </section>
 
     <section>
-        <work>
-            <name>ARC Resources Ltd.</name>
-            <location>Calgary, Alberta</location>
-            <position>Information Systems - Summer Student</position>
-            <roles>
-                <description>Learned how to use Azure to automate deployment of web apps using continuous integration and continuous deployment.</description>
-                <description>Wrote build scripts in powershell as part of the build process.</description>
-                <description></description>
-                <description>Applied MVC design pattern on web apps.</description>
-            </roles>
-        </work>
+        <name>Work Experience</name>
+        <subsection>
+            <title>ARC Resources Ltd.</title>
+            <description>Calgary, Alberta </description>
+            <date>(May 2017 - August 2017)</date>
+            <details>Information Systems - Summer Student</details>
+            <bullet-point>Did research and development on using Azure services to start the process on migrating ARC’s web applications to the cloud</bullet-point>
+            <bullet-point>Modified the existing build files for the new deployment system</bullet-point>
+            <bullet-point>Successfully migrated one of their web applications on the Azure Web Services </bullet-point>
+            <bullet-point>Learned ASP.NET to work on ARC’s web applications</bullet-point>
+            <bullet-point>Discovered how to use continuous integration automatic deployment</bullet-point>
+            <bullet-point>Used OAuth and OpenID Connect to secure access to web applications</bullet-point>
+            <bullet-point>Followed Agile practices with the rest of the Developer team</bullet-point>
+        </subsection>
+        
+    </section>
+
+    <section>
+        <name>Community Experience</name>
+        
+        <subsection>
+            <title>Computer Engineering Club President</title>
+            <date>(2016-2018)</date>
+            <bullet-point>Introduced the Computer Engineering Club’s first fall hackathon aimed at exposing students with little to no programming experience to a hackathon environment</bullet-point>
+            <bullet-point>Organizes the yearly winter hackathon: HackED and watches over sponsorship, and day-of duties</bullet-point>
+            <bullet-point>Created an executive hierarchy to make it easier for senior and new junior executives to communicate and improving the past system</bullet-point>
+            <bullet-point>Improved club branding by creating a new logo to be used in all Computer Engineering marketing</bullet-point>
+            
+        </subsection>
+        
+        <subsection>
+            <title>Computer Engineering Club VP Social</title>
+            <date>(2015-2016)</date>
+            <bullet-point>Organized all Computer Engineering Club events and makes sure they are according to the University of Alberta Student Group Services standards</bullet-point>
+            <bullet-point>Designed event branding using Photoshop to create posters and social media advertisements</bullet-point>
+        </subsection>
+
+        <subsection>
+            <title>Engineering Students’ Society (ESS) Pi Throw Coordinator</title>
+            <date>(2015)</date>
+            <bullet-point>Organized Pi Week, an annual ESS charity event that raises money for Habitat for Humanity</bullet-point>
+            <bullet-point>Coordinated with the ESS volunteer coordinator to get volunteers for the event</bullet-point>
+
+        </subsection>
+        
+        <subsection>
+            <title>Engineering Students’ Society (ESS) Memories Coordinator</title>
+            <date>(2014-2015)</date>
+            <bullet-point>Photographed all ESS events and distributed event photos on various social media platforms and publications</bullet-point>
+        </subsection>
+
+        <subsection>
+            <title>U of A Orientation Leader </title>
+            <date>(2014, 2015)</date>
+            <bullet-point>Showed a group of first years around campus and the different services offered by the Students’ Union</bullet-point>
+            <bullet-point>Attended team building sessions over a 5-month timespan to prepare for orientation</bullet-point>
+        </subsection>
+    </section>
+
+    <section>
+        <name>Awards and Scholarships</name>
+        <bullet-point>Computer Engineering Peer of Peers Award (2014)</bullet-point>
+        <bullet-point>University of Alberta Academic Excellence Scholarship (2013)</bullet-point>
+        <bullet-point>U of A Faculty of Engineering Academic Excellence Scholarship (2013)</bullet-point>
+    </section>
+
+    <section>
+        <name>Hobbies</name>
+        <bullet-point>Working on side projects:
+            <sub-bullet-point>Deploying web applications to the cloud using Heroku</sub-bullet-point>
+            <sub-bullet-point>Building an API using ASP.NET Core</sub-bullet-point>
+        </bullet-point>
+        <bullet-point>Playing board games and video games</bullet-point>
+        <bullet-point>Going on hiking and camping trips during the summer</bullet-point>
+        <bullet-point>Listening to music and creating video covers by singing and playing instruments</bullet-point>
+        <bullet-point>Photography and travelling</bullet-point>
     </section>
 </resume>
-
-
